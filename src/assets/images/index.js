@@ -12,7 +12,7 @@ import Poster8 from './poster8.jpg';
 import Poster9 from './poster9.jpg';
 import search from './search.png';
 
-export const images = {
+export const Images = {
   back,
   navBar,
   placeholder,
