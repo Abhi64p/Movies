@@ -5,6 +5,8 @@
         <!-- Customize your theme here. -->
         <item name="android:editTextBackground">@drawable/rn_edit_text_material</item>
         <item name="android:navigationBarColor">#202124</item>
+        <item name="android:colorControlActivated">#FFF</item>
+        <item name="android:textColorHighlight">#808080</item>
     </style>
 
 </resources>

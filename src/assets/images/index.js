@@ -1,4 +1,5 @@
 import back from './Back.png';
+import cancel from './cancel.png';
 import navBar from './nav_bar.png';
 import placeholder from './placeholder_for_missing_posters.png';
 import Poster1 from './poster1.jpg';
@@ -14,6 +15,7 @@ import search from './search.png';
 
 export const Images = {
   back,
+  cancel,
   navBar,
   placeholder,
   search,
