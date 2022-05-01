@@ -1,9 +1,10 @@
 import React from 'react';
-import {render, fireEvent, waitFor} from '@testing-library/react-native';
-jest.mock('react-native-linear-gradient', () => 'LinearGradient');
-jest.mock('react-native-reanimated', () => ({View: 'AView'}));
+import {fireEvent, render, waitFor} from '@testing-library/react-native';
 
 import SearchBarWithTitle from '../src/components/SearchBarWithTitle';
+
+jest.mock('react-native-linear-gradient', () => 'LinearGradient');
+jest.mock('react-native-reanimated', () => ({View: 'AView'}));
 
 test('Test to see if title is rendering', () => {
   const TITLE = 'title for testing';
