@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Poster rendering correctly 1`] = `
+<View
+  style={
+    Object {
+      "margin": 10,
+    }
+  }
+>
+  <Image
+    resizeMode="cover"
+    source={
+      Object {
+        "testUri": "../../../src/assets/images/placeholder_for_missing_posters.png",
+      }
+    }
+    style={
+      Object {
+        "height": 150,
+        "width": 100,
+      }
+    }
+  />
+  <Text
+    numberOfLines={2}
+    style={
+      Array [
+        Object {
+          "color": "white",
+          "fontFamily": "TitilliumWeb-Light",
+          "fontSize": 14,
+        },
+        Object {
+          "height": 40,
+          "marginTop": 3,
+        },
+        Object {
+          "width": 100,
+        },
+      ]
+    }
+  >
+    sample poster
+  </Text>
+</View>
+`;

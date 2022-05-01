@@ -73,7 +73,8 @@ const SearchBarWithTitle = ({title, onChangeText}) => {
             />
             <TouchableOpacity
               onPress={handleClear}
-              disabled={searchString === ''}>
+              disabled={searchString === ''}
+              testID="searchStringClearButton">
               <Image
                 source={Images.cancel}
                 resizeMode="contain"
@@ -93,7 +94,8 @@ const SearchBarWithTitle = ({title, onChangeText}) => {
         <TouchableOpacity
           style={styles.searchButton}
           onPress={toggleSearch}
-          disabled={searchEnabled && searchString !== ''}>
+          disabled={searchEnabled && searchString !== ''}
+          testID="searchToggleButton">
           <Image
             source={Images.search}
             resizeMode="contain"
